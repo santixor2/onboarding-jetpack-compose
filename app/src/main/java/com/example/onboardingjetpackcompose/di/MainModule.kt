@@ -2,6 +2,9 @@ package com.example.onboardingjetpackcompose.di
 
 import android.content.Context
 import com.example.onboardingjetpackcompose.data.DataStoreRepository
+import com.example.onboardingjetpackcompose.feature_authentication.data.AuthRepository
+import com.example.onboardingjetpackcompose.feature_authentication.data.AuthRepositoryImpl
+import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -18,5 +21,15 @@ object MainModule {
     fun provideDataStoreRepository(
         @ApplicationContext context: Context
     ) = DataStoreRepository(context = context)
+
+    @Provides
+    @Singleton
+    fun providesFirebaseAuth()  = FirebaseAuth.getInstance()
+
+    @Provides
+    @Singleton
+    fun providesRepositoryImpl(firebaseAuth: FirebaseAuth): AuthRepository {
+        return AuthRepositoryImpl(firebaseAuth)
+    }
 
 }

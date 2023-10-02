@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.ui
+package com.example.onboardingjetpackcompose.util
 
 import androidx.annotation.DrawableRes
 import com.example.onboardingjetpackcompose.R

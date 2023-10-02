@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.viewmodel
+package com.example.onboardingjetpackcompose.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

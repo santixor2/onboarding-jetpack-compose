@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.screen
+package com.example.onboardingjetpackcompose.presentation.screen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -23,11 +23,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.example.onboardingjetpackcompose.Screen
-import com.example.onboardingjetpackcompose.ui.OnBoardingPage
-import com.example.onboardingjetpackcompose.viewmodel.WelcomeViewModel
+import com.example.onboardingjetpackcompose.navigation.Screen
+import com.example.onboardingjetpackcompose.util.OnBoardingPage
+import com.example.onboardingjetpackcompose.presentation.viewmodel.WelcomeViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.HorizontalPagerIndicator
@@ -67,9 +68,9 @@ fun WelcomeScreen(
             modifier = Modifier.weight(1f),
             pagerState = pagerState
         ) {
-            welcomeViewModel.saveOnBoardingState(completed = true)
+            //welcomeViewModel.saveOnBoardingState(completed = true)
             navController.popBackStack()
-            navController.navigate(Screen.Home.route)
+            navController.navigate(Screen.SignUp.route)
         }
     }
 }
@@ -117,9 +118,9 @@ fun FinishButton(
         AnimatedVisibility(modifier = Modifier.fillMaxWidth(), visible = pagerState.currentPage == 2) {
             Button(
                 onClick = onClick,
-                colors = ButtonDefaults.buttonColors(containerColor = Color.White)
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Red)
             ) {
-                Text(text = "Finish")
+                Text(text = "Finish", color = Color.White, fontSize = 15.sp)
             }
         }
     }

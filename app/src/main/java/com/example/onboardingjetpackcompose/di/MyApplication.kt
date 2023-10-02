@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose
+package com.example.onboardingjetpackcompose.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

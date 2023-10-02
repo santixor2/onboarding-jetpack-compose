@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.presentation.screen
+package com.example.onboardingjetpackcompose.feature_onboarding.presentation.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

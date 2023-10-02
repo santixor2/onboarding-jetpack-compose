@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.data
+package com.example.onboardingjetpackcompose.feature_onboarding.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore

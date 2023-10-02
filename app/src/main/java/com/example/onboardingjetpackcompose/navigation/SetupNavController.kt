@@ -6,8 +6,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.onboardingjetpackcompose.feature_authentication.presentation.signup.SignUpScreen
-import com.example.onboardingjetpackcompose.presentation.screen.HomeScreen
-import com.example.onboardingjetpackcompose.presentation.screen.WelcomeScreen
+import com.example.onboardingjetpackcompose.feature_onboarding.presentation.screen.HomeScreen
+import com.example.onboardingjetpackcompose.feature_onboarding.presentation.screen.WelcomeScreen
 import com.google.accompanist.pager.ExperimentalPagerApi
 
 @ExperimentalPagerApi

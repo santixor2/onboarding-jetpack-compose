@@ -124,7 +124,7 @@ fun SignUpScreen(
                 colors = ButtonDefaults.buttonColors(backgroundColor = Color.Red)
             ) {
                 Text(
-                    text = "Sign Up",
+                    text = "Iniciar Sesion",
                     color = Color.White,
                     modifier = Modifier.padding(7.dp),
                     fontSize = 15.sp

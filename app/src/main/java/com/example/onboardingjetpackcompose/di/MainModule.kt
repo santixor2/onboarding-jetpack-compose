@@ -1,7 +1,7 @@
 package com.example.onboardingjetpackcompose.di
 
 import android.content.Context
-import com.example.onboardingjetpackcompose.data.DataStoreRepository
+import com.example.onboardingjetpackcompose.feature_onboarding.data.DataStoreRepository
 import com.example.onboardingjetpackcompose.feature_authentication.data.AuthRepository
 import com.example.onboardingjetpackcompose.feature_authentication.data.AuthRepositoryImpl
 import com.google.firebase.auth.FirebaseAuth

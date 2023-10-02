@@ -11,17 +11,17 @@ sealed class OnBoardingPage(
 ){
     object First : OnBoardingPage(
         image = R.drawable.firstonbor,
-        title = "meeting",
-        description = "vamos vamos "
+        title = "Busca donantes de Sangre",
+        description = "+++++++++++++++++"
     )
     object Second : OnBoardingPage(
         image = R.drawable.secondonbor,
-        title = "locuras ",
-        description = "mira vos"
+        title = "Realiza una peticion de donacion",
+        description = "++++++++++++++"
     )
     object Third : OnBoardingPage(
         image = R.drawable.splashbloodred,
-        title = "sangrita",
-        description = "que sangrita"
+        title = "Puede donar para los necesitados y solicitar sangre si necesita",
+        description = "+++++++++++++++"
     )
 }

@@ -9,7 +9,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.rememberNavController
 import com.example.onboardingjetpackcompose.navigation.SetupNavGraph
 import com.example.onboardingjetpackcompose.ui.theme.OnboardingJetpackComposeTheme
-import com.example.onboardingjetpackcompose.presentation.viewmodel.SplashViewModel
+import com.example.onboardingjetpackcompose.feature_onboarding.presentation.viewmodel.SplashViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.example.onboardingjetpackcompose.presentation.screen
+package com.example.onboardingjetpackcompose.feature_onboarding.presentation.screen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -28,7 +28,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.example.onboardingjetpackcompose.navigation.Screen
 import com.example.onboardingjetpackcompose.util.OnBoardingPage
-import com.example.onboardingjetpackcompose.presentation.viewmodel.WelcomeViewModel
+import com.example.onboardingjetpackcompose.feature_onboarding.presentation.viewmodel.WelcomeViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.HorizontalPagerIndicator

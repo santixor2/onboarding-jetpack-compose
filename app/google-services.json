@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963661633581",
+    "project_id": "onboarding-jetpack-compose",
+    "storage_bucket": "onboarding-jetpack-compose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963661633581:android:88e8b2583137b29dbbc0a4",
+        "android_client_info": {
+          "package_name": "com.example.onboardingjetpackcompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwwjl35jZpcbwtxU3AdOy7geg1j1xnLIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

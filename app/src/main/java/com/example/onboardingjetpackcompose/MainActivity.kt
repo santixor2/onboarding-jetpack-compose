@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
         installSplashScreen().setKeepOnScreenCondition{
             !splashViewModel.isLoading.value
         }
+        //comentario
         setContent {
             OnboardingJetpackComposeTheme {
                 val screen by splashViewModel.startDestination
